@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce</title>
+  <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/4bea204677.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="container mt-2 text-muted">
+    <div class="d-flex justify-content-md-between flex-column flex-md-row align-items-center">
+      <div class="d-flex flex-md-row flex-column align-items-center">
+        <div>
+          <i class="fas fa-phone"></i>
+        </div>
+        <div class="ms-1">
+          555-555-55-55
+        </div>
+        <div class="ms-5">
+          Contact Us
+        </div>
+
+      </div>
+      <div class="d-flex">
+        <div class="dropdown">
+          <button class="btn dropdown-toggle" data-bs-toggle="dropdown">
+            Turkish
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">English</a></li>
+            <li><a class="dropdown-item" href="#">French</a></li>
+            <li><a class="dropdown-item" href="#">German</a></li>
+          </ul>
+        </div>
+        <div class="dropdown ms-1">
+          <button class="btn dropdown-toggle" data-bs-toggle="dropdown">
+            $
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">USD</a></li>
+            <li><a class="dropdown-item" href="#">EURO</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto text-uppercase mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">  <main>Main Page</main></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Private Courses for Companies</a></li>
+              <li><a class="dropdown-item" href="#">Private Course</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Video Tutorials</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="d-flex align-items-center justify-content-between">
+          <div class="me-3">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <i class="fas fa-search"></i>
+            </button>
+
+            <div class="modal fade" id="exampleModal">
+              <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container">
+                      <div class="row justify-content-center">
+                        <div class="col-md-8">
+                          <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Eğitim Ara">
+                            <button class="input-group-text">
+                              <i class="fas fa-search"></i>
+                            </button>
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="me-3">
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="me-3">
+            <div class="btn-group dropstart">
+              <button class="btn" data-bs-toggle="dropdown">
+                <i class="fas fa-shopping-basket"></i>
+                <small
+                  class="position-absolute translate-middle bg-primary rounded-circle border border-light text-white px-2">2</small>
+
+              </button>
+              <ul class="dropdown-menu courseCard">
+                <li>
+                  <a class="dropdown-item">
+                    <div class="row text-center text-md-start">
+                      <div class="col-md-5">
+                        <img src="img/img1.jpg" class="img-fluid">
+                      </div>
+                      <div class="col-md-7">
+                        <p class="small fw-bolder mb-0">
+                          AngularCourse
+                        </p>
+                        <p class="small text-muted mb-0">
+                          Number:1
+                        </p>
+                        <p class="small fw-bolder mb-0">
+                          9$
+                        </p>
+                      </div>
+
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li>
+                  <a class="dropdown-item">
+                    <div class="row text-center text-md-start">
+                      <div class="col-md-5">
+                        <img src="img/img2.png" class="img-fluid">
+                      </div>
+                      <div class="col-md-7">
+                        <p class="small fw-bolder mb-0">
+                          Bootstrap 5 Course
+                        </p>
+                        <p class="small text-muted mb-0">
+                          Number:2
+                        </p>
+                        <p class="small fw-bolder mb-0">
+                          15$
+                        </p>
+                      </div>
+
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li>
+                  <a class="dropdown-item d-flex justify-content-between flex-column flex-md-row align-items-center">
+                    <p class="lead text-uppercase text-muted mb-0">Total Amount</p>
+                    <p class="fw-bolder mb-0">24$</p>
+                  </a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li>
+                  <div class="dropdown-item d-flex justify-content-between align-items-center flex-column flex-md-row">
+                    <a class="fs-6 text-uppercase text-muted mb-4 mb-md-0">Go to Basket</a>
+                    <div>
+                      <a href="" class="btn btn-outline-dark rounded-0 px-5">Complete the Payement</a>
+                    </div>
+                  </div>
+                </li>
+
+
+              </ul>
+            </div>
+
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/img1.jpg" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="img/img2.png" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="img/img3.png" class="d-block w-100">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <div class="card shadow mb-3 mb-sm-0">
+          <img src="img/img1.jpg" alt="">
+          <div class="card-body">
+            <h5>Angular Course</h5>
+            <p class="card-text">9$</p>
+            <a href="" class="btn btn-success rounded-0 w-100">Purchase</a>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="card shadow mb-3 mb-sm-0">
+          <img src="img/img2.png" alt="">
+          <div class="card-body">
+            <h5>Bootstrap 5 Education</h5>
+            <p class="card-text">7.5$</p>
+            <a href="" class="btn btn-success rounded-0 w-100">Purchase</a>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="card shadow mb-3 mb-sm-0">
+          <img src="img/img3.png" alt="">
+          <div class="card-body">
+            <h5>C Programming Course</h5>
+            <p class="card-text">6$</p>
+            <a href="" class="btn btn-success rounded-0 w-100">Purchase</a>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="card shadow mb-3 mb-sm-0">
+          <img src="img/img1.jpg" alt="">
+          <div class="card-body">
+            <h5>C# Course</h5>
+            <p class="card-text">6$</p>
+            <a href="" class="btn btn-success rounded-0 w-100">Purchase</a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="row mt-5">
+      <div class="col-lg-3 col-md-6">
+        <div class="card shadow mb-3 mb-sm-0">
+          <img src="img/img5.jpg" alt="">
+          <div class="card-body">
+            <h5>Web Develepment Course</h5>
+            <p class="card-text">6$</p>
+            <a href="" class="btn btn-success rounded-0 w-100">Purchase</a>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="card shadow mb-3 mb-sm-0">
+          <img src="img/img6.png" alt="">
+          <div class="card-body">
+            <h5>Rxjs Course</h5>
+            <p class="card-text">6$</p>
+            <a href="" class="btn btn-success rounded-0 w-100">Purchase</a>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="card shadow mb-3 mb-sm-0">
+          <img src="img/img7.png" alt="">
+          <div class="card-body">
+            <h5>Sql Course</h5>
+            <p class="card-text">6$</p>
+            <a href="" class="btn btn-success rounded-0 w-100">Purchase</a>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="card shadow mb-3 mb-sm-0">
+          <img src="img/img8.jpg" alt="">
+          <div class="card-body">
+            <h5>Vue Js Course</h5>
+            <p class="card-text">6$</p>
+            <a href="" class="btn btn-success rounded-0 w-100">Purchase</a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <section id="whyus" class="mt-4">
+    <div class="container text-center">
+      <div class="shadow-lg pt-5">
+        <div class="row mb-0 mb-md-4 p-4">
+          <div class="col-md-4 mb-4 mb-md-0">
+            <span class="shadow bg-white p-4 rounded-circle">
+              <i class="text-danger fas fa-cart-plus"></i>
+            </span>
+            <h3 class="mt-5">
+              Why should I Learn Software?
+            </h3>
+            <p class="text-muted">
+              You Can Work From Anywhere in the World!
+            </p>
+
+          </div>
+          <div class="col-md-4 mb-4 mb-md-0">
+            <span class="shadow bg-white p-4 rounded-circle">
+              <i class="text-danger fab fa-shopify"></i>
+            </span>
+            <h3 class="mt-5">
+              Why should I Learn Software?
+            </h3>
+            <p class="text-muted">
+              You Can Work From Anywhere in the World!
+            </p>
+
+          </div>
+          <div class="col-md-4 mb-4 mb-md-0">
+            <span class="shadow bg-white p-4 rounded-circle">
+              <i class="text-danger fab fa-cc-paypal"></i>
+            </span>
+            <h3 class="mt-5">
+              Why should I Learn Software?
+            </h3>
+            <p class="text-muted">
+              You Can Work From Anywhere in the World!
+            </p>
+
+          </div>
+        </div>
+        <div class="row p-4">
+          <div class="col-md-4 mb-4 mb-md-0">
+            <span class="shadow bg-white p-4 rounded-circle">
+              <i class="text-danger fas fa-user-graduate"></i>
+            </span>
+            <h3 class="mt-5">
+              Why Should I Learn Software?
+            </h3>
+            <p class="text-muted">
+              You Can Work From Anywhere in the World!
+            </p>
+
+          </div>
+          <div class="col-md-4 mb-4 mb-md-0">
+            <span class="shadow bg-white p-4 rounded-circle">
+              <i class="text-danger fas fa-university"></i>
+            </span>
+            <h3 class="mt-5">
+              Why should I Learn Software?
+            </h3>
+            <p class="text-muted">
+              You Can Work From Anywhere in the World!
+            </p>
+
+          </div>
+          <div class="col-md-4 mb-4 mb-md-0">
+            <span class="shadow bg-white p-4 rounded-circle">
+              <i class="text-danger fas fa-trophy"></i>
+            </span>
+            <h3 class="mt-5">
+              Why should I Learn Software?
+            </h3>
+            <p class="text-muted">
+              You Can Work From Anywhere in the World!
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="bg-secondary text-white text-center my-5">
+    <div class="container">
+      <div class="row py-5 align-items-center">
+        <div class="col-md-6">
+          <h1 class="fs-1 fw-light">For the Ones Who Purchase Angular Course</h1>
+          <h1 class="display-1 fw-bolder my-3">The Education You Want is Free!</h1>
+          <small>You Can Send a Message for your Questions via E-Mail.</small>
+          <br>
+          <a href="" class="btn btn-outline-light mt-5 px-5 py-2 rounded-0">Purchase</a>
+        </div>
+        <div class="col-md-6">
+          <img src="img/img1.jpg" class="img-fluid">
+        </div>
+
+      </div>
+    </div>
+
+
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="text-center">
+        <h1 class="display-1 fw-bold">Contact me</h1>
+      </div>
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4 mb-3">
+          <label for="validationCustom01" class="form-label">Name</label>
+          <input type="text" class="form-control" required>
+          <div class="valid-feedback">
+            Done!
+          </div>
+          <div class="invalid-feedback">
+            Name is Required!
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationCustom02" class="form-label">Surname</label>
+          <input type="text" class="form-control" required>
+          <div class="valid-feedback">
+            Done!
+          </div>
+          <div class="invalid-feedback">
+            Surname is Required!
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationCustomUsername" class="form-label">User Name</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text">@</span>
+            <input type="text" class="form-control" required>
+            <div class="valid-feedback">
+              Done!
+            </div>
+            <div class="invalid-feedback">
+              User Name is Required!
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label class="form-label">Address(Neighborhood, Street, Number)</label>
+          <input type="text" class="form-control" required>
+          <div class="valid-feedback">
+            Done!
+          </div>
+          <div class="invalid-feedback">
+            Address  is Required!
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <label class="form-label">City</label>
+          <select class="form-select" required>
+            <option selected disabled value="">Select Please</option>
+            <option value="ist">İstanbul</option>
+            <option value="ank">Berlin</option>
+            <option value="izm">Zürich</option>
+          </select>
+          <div class="valid-feedback">
+            Done!
+          </div>
+          <div class="invalid-feedback">
+            City is Required!
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <label class="form-label">Post Code</label>
+          <input type="text" class="form-control" required>
+          <div class="valid-feedback">
+            Done!
+          </div>
+          <div class="invalid-feedback">
+            Post Code is Required!
+          </div>
+        </div>
+
+        <div class="col-12 my-3">
+          <button class="btn btn-success w-100" type="submit">Send</button>
+        </div>
+      </form>
+
+    </div>
+  </section>
+
+  <section class="bg-light pt-5">
+    <div class="container">
+      <div class="row text-center text-md-start">
+        <div class="col-md-4">
+          <p class="fs-5">My Educations</p>
+          <small class="text-muted">Fast Learning Courses</small>
+        </div>
+        <div class="col-md-4">Web Development Courses</p>
+          <ul class="list-unstyled">
+            <li><a href="" class="text-decoration-none text-muted small">React</a></li>
+            <li><a href="" class="text-decoration-none text-muted small">Frontend</a></li>
+            <li><a href="" class="text-decoration-none text-muted small">Angular</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <p class="fs-5">Programmming Course</p>
+          <ul class="list-unstyled">
+            <li><a href="" class="text-decoration-none text-muted small">C Programming</a></li>
+            <li><a href="" class="text-decoration-none text-muted small">C# Programming</a></li>
+            <li><a href="" class="text-decoration-none text-muted small">Full Stack Development Course</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <div class="bg-secondary text-center text-white py-3">
+    <p class="lead mb-0">All Rights are Reserved | <span>Can Dinler</span></p>
+  </div>
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+    (() => {
+      'use strict'
+
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      const forms = document.querySelectorAll('.needs-validation')
+
+      // Loop over them and prevent submission
+      Array.from(forms).forEach(form => {
+        form.addEventListener('submit', event => {
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
+
+          form.classList.add('was-validated')
+        }, false)
+      })
+    })()
+  </script>
+</body>
+
+</html>
